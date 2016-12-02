@@ -22,7 +22,7 @@ public class Main {
 
     static List<String> deathSynonyms = Arrays.asList("die","death","dead","died");
 
-    private static String queryString = "Who died yesterday";
+    private static String queryString = "Who died on 11th october";
 
     public static void main (String [] args) {
 
