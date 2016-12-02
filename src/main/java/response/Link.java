@@ -1,20 +1,14 @@
 package response;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * Created by maulik on 01/12/16.
  */
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class Link {
-    @Getter
-    @Setter
-    private String subject;
-
     @Getter
     @Setter
     private String title;
